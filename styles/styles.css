@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --primary-color: #0099FF;
+    --secondary-color: #2A2D34;
+    --bg-color: #DFE0E2;
+
+    --font-dark: white;
+    --font-head: 'IBM Plex Sans', sans-serif;
+    --font-p: 'Roboto', sans-serif;
+}
+
+.prof-img{
+    max-width: 25vw;
+    box-shadow: 0px 5px 1vw black;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--font-p);
+}
+
+main{
+    padding: 2.5vw 10vw;
+}
+
+header, footer{
+    background-color: var(--primary-color);
+    color: var(--font-dark);
+    padding: 2%;
+    border-radius: 22px;
+    box-shadow: 0px 5px 1vw black;
+    margin-bottom: 3%;
+}
+
+header h1{
+    margin: auto;
+    padding: 10px;
+    width:50%;
+    text-shadow: 0px 5px 1vw black;
+    font-family: var(--font-head);
+}
+
+footer p{
+    text-align: center;
+    margin-bottom:0%;
+}
+
+.updated{
+    color:yellow;
+}
