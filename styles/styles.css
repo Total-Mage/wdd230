@@ -25,6 +25,10 @@ main{
     padding: 2.5vw 10vw;
 }
 
+header{
+    display:flex;
+}
+
 header, footer{
     background-color: var(--primary-color);
     color: var(--font-dark);
