@@ -19,14 +19,7 @@
 body{
     background-color: var(--bg-color);
     font-family: var(--font-p);
-}
-
-main{
     padding: 2.5vw 10vw;
-}
-
-header{
-    display:flex;
 }
 
 header, footer{
@@ -36,6 +29,7 @@ header, footer{
     border-radius: 22px;
     box-shadow: 0px 5px 1vw black;
     margin-bottom: 3%;
+    display:block;
 }
 
 header h1{
@@ -53,4 +47,17 @@ footer p{
 
 .updated{
     color:yellow;
+}
+
+.flex{
+    display:flex;
+}
+
+.no-shadow{
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.center-text{
+    text-align: center;
 }
