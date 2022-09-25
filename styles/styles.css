@@ -69,7 +69,7 @@ footer p{
 
 .site-cards{
     display: grid;
-    /* grid-template-rows: 15px 5fr 4fr; */
+    grid-template-rows: 80px 30vh auto;
     border: solid 1px rgba(0, 0, 0, 0.151);
     border-radius: 15px;
     border-top: none;
@@ -147,7 +147,7 @@ footer p{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap:5px 5px;
-        height:310vh;
+        height:360vh;
     }
 
     .site-cards-content:nth-child(1){
