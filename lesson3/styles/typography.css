@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+:root{
+    --header-font: 'Lora', serif;
+    --p-font: 'Nunito', sans-serif;
+
+}
+
+.test-head{
+    font-family:var(--header-font);
+}
+
+.test-p{
+    font-family:var(--p-font)
+}

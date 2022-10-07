@@ -1,0 +1,28 @@
+:root{
+    --main-color: #2E1F27;
+    --secondary-color: #854D27;
+    --accent-color: #DD7230;
+}
+
+.block{
+    width: 300px;
+    height: 75px;
+    padding: 10%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.main-color{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.secondary-color{
+    background-color: var(--secondary-color);
+    color:white;
+}
+
+.accent-color{
+    background-color: var(--accent-color);
+    color:white;
+}
