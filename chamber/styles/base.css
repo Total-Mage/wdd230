@@ -1,4 +1,6 @@
 /* Small viewport */
 @media (max-width: 768px){
-    
+    .news{
+        margin: 0 auto;
+    }
 }

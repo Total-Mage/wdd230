@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root{
+    --main-color: #2E1F27;
+    --secondary-color: #854D27;
+    --accent-color: #DD7230;
+    --header-font: 'Lora', serif;
+    --p-font: 'Nunito', sans-serif;
+
+}
+
+.colored-box{
+    background-color: var(--accent-color);
+    padding: 2vw;
+    color: white; 
+    margin-bottom: 50px;
+}
+
+.small-box{
+    width: 200px;
+    height: 144px;
+    margin: 0 10px;
+}
+
+p, .date-time{
+    font-family: var(--p-font);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--header-font);
+}
+
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.aligned{
+    padding: 0 10vw;
+    margin: 0 auto;
+}
+
+header, footer{
+    background-color: var(--main-color);
+    color:white;
+    padding: 20px 10vw; 
+    display:block;
+}
+
+.footer-top{
+    display: flex;
+}
+
+.block{
+    display: block;
+}
+
+
+
+/* Header */
+.head-logo{
+    max-width: 15vw;
+    height: auto;
+    margin-right: 25px;
+}
+
+.top-head{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.head-top-text h1{
+    margin-bottom: 0;
+}
+
+.head-top-text p{
+    margin-top: 0;
+}
+
+.time{
+    border-top: solid 1px #DD723550;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+/* Main Content index.html */
+.hero-img{
+    width: 100vw;
+    height: 25vw;
+    display: block;
+}
+
+/* News */
+.content-blocks{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.news-card{
+    margin-bottom: 10px;
+}
