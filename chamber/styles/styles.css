@@ -21,7 +21,7 @@
 .small-box{
     width: 200px;
     height: 144px;
-    margin: 0 10px;
+    /* margin: 0 10px; */
 }
 
 p, .date-time{
@@ -38,7 +38,7 @@ body{
 }
 
 .content{
-    padding: 0 10vw;
+    padding: 1em 10vw;
     margin: 0 auto;
     display: grid;
 }
@@ -103,3 +103,32 @@ header, footer{
 /* .news-card{
     margin-bottom: 10px;
 } */
+
+/* Grid layout */
+.spot{
+    display: grid;
+    gap: 0;
+}
+.event{
+    grid-area: event;
+}
+
+.weather{
+    grid-area: weather;
+}
+
+.join{
+    grid-area: join;
+}
+
+.hero-img{
+    grid-area: hero;
+}
+
+.spot{
+    grid-area: spot;
+}
+
+.news{
+    grid-area: news;
+}

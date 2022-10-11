@@ -1,4 +1,29 @@
 /* Medium viewport */
 @media (max-width: 1099px) and (min-width:769px){
+    .content{
+        grid-template-areas: 
+        "hero hero hero"
+        "news news news"
+        "spot spot spot"
+        "join join join"
+        "event event weather";
+        gap: 1em;
+    }
 
+    .spot{
+        grid-template-areas: 
+        "s1 s2";
+    }
+
+    .spot3{
+        display:none;
+    }
+
+    .content div, .content aside{
+        height: 15vh;
+    }
+
+    .spot div{
+        height:10vh;
+    }
 }
