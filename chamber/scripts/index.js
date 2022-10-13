@@ -16,3 +16,12 @@ modifiedDate.innerHTML = lastMod.toLocaleString();
 
 let copyDate = document.querySelector(".copy-year");
 copyDate.innerHTML = currentCopy;
+
+// Hamburger Menu
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.hammy')
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+// To solve the mid resizing issue with responsive class on
+window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};

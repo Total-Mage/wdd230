@@ -61,8 +61,9 @@ header, footer{
 
 
 /* Header */
-.head-logo{
-    max-width: 15vw;
+.head-logo, .foot-logo img{
+    width: 15vw;
+    max-width: 100px;
     height: auto;
     margin-right: 25px;
 }
@@ -78,6 +79,41 @@ header, footer{
 
 .head-top-text p{
     margin-top: 0;
+    grid-area: name;
+}
+nav{
+    margin-left: 2em;
+    margin-top: 1.8em;
+    font-size: 1.3em;
+    grid-area:ham;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    padding-right: 2em;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: var(--p-font);
+    color:white;
+}
+
+
+.social-head img{
+    width: 40px;
+    height: auto;
+}
+
+.social-head{
+    /* margin-top: 3em;
+    margin-left:auto;
+    margin-right: 0px;
+     */
+    grid-area: social;
 }
 
 .time{
@@ -87,6 +123,30 @@ header, footer{
     margin-top: 20px;
 }
 
+.hammy{
+    display: none;
+    background-color: var(--secondary-color);
+    margin: 0;
+}
+.hammy ul{
+    padding:0;
+    margin-top: 0;
+}
+
+nav a:hover{
+    font-size: larger;
+    transition: 0.5s;
+}
+
+.social-head{
+    text-align: right;
+    padding-top: 5vh;
+}
+
+
+.hammy li{
+    padding: 0.75rem 10px;
+}
 /* Main Content index.html */
 /* .hero-img{
     width: 100vw;
@@ -132,3 +192,32 @@ header, footer{
 .news{
     grid-area: news;
 }
+
+.logo-box{
+    grid-area:img;
+}
+
+.navigation{
+    grid-area:ham;
+}
+
+.footer-top{
+    display: grid;
+    grid-template-areas: 
+    "foot-logo add-foot add-foot contact-foot";
+}
+
+.head-logo{
+    grid-area:foot-logo;
+}
+.add-foot{
+    grid-area:add-foot;
+}
+.contact-foot{
+    grid-area: contact-foot;
+}
+
+.centered{
+    text-align: center;
+}
+

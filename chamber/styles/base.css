@@ -27,4 +27,97 @@
     .spot3, .join{
         display:none;
     }
+
+    .social-head img{
+        width: 25px !important;
+        margin: 40px auto;
+    }
+    .head-logo{
+        width:70px;
+    }
+    /* Nav */
+    .navigation:hover{
+        background-color: #DD7230;
+        transition: 0.5s;
+    
+    }
+    .hammy li:hover{
+        background-color: #DD7230;
+        padding-left: 15px;
+        font-size: larger;
+        transition: 0.5s;
+    }
+    .navigation {
+        list-style: none;
+        padding: 0;
+        position: absolute;
+        background-color:#854D27;
+        margin: 0;
+        border: 1px solid #DD723080;
+        border-radius: 10px;
+        background-color: #2E1F27;
+
+    }
+    .navigation li:first-child {
+        display: block;
+        padding: 3px 5px;
+    }
+    .navigation li {
+        display: none;
+    }
+    .navigation a {
+        display: block;
+        padding: 0.40rem;
+        text-align: left;
+        text-decoration: none;
+        font-weight: 700;
+        transition: 0.5s;
+        font-size: clamp(1rem, 2vmin, 1.5rem);
+    }
+    
+    .navigation a.ham::before {
+        content: "☰";
+    }
+    
+    .ham a:hover {
+        color: white;
+        background-color: black;
+    }
+
+    .responsive li, .responsive{
+        display: block;
+    }
+    
+    .responsive a.ham::before {
+        content: "X";
+    }
+
+    .head-top-text h1{
+        font-size: 20px;
+    }
+
+    .ham{
+        display: block;
+    }
+
+    /* .head-top-text p{
+        
+    } */
+    /* Grid layout header */
+    .top-head{
+        display: grid;
+        grid-template-areas: 
+        "img name social ham";
+        height:10vh;
+    }
+
+    /* Grid Layout footer */
+    .footer-top{
+        grid-template-areas: 
+        "foot-logo"
+        "add-foot"
+        "contact-foot";
+        text-align: center;
+    }
+    
 }
