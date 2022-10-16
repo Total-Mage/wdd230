@@ -8,6 +8,13 @@
         gap: 1em;
     }
 
+    .event, .spot{
+        min-width: 16vw;
+        max-width: 18vw;
+    }
+
+
+
     .content{
         height: 100vh;
     }

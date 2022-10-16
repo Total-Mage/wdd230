@@ -25,3 +25,14 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+
+
+// Meeting Reminder Banner
+function checkMeetReminder(day){
+  const banner = document.querySelector(".notification-banner");
+  
+  if(day == 2 || day == 3){
+    banner.setAttribute('id','reminder');
+  }
+}
+checkMeetReminder(date.getDay());

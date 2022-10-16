@@ -11,11 +11,11 @@
 }
 
 .colored-box{
-    background-color: var(--accent-color);
+    background-color: var(--secondary-color);
     padding: 2vw;
     color: white; 
-    /* margin-bottom: 50px; */
-    border: solid black;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .small-box{
@@ -42,7 +42,6 @@ body{
     margin: 0 auto;
     display: grid;
 }
-
 header, footer{
     background-color: var(--main-color);
     color:white;
@@ -147,22 +146,70 @@ nav a:hover{
 .hammy li{
     padding: 0.75rem 10px;
 }
-/* Main Content index.html */
-/* .hero-img{
-    width: 100vw;
-    height: 25vw;
+
+/* meeting reminder banner */
+.notification-banner{
+    display: none;
+}
+#reminder{
+    text-align: center;
+    background:linear-gradient(-45deg, var(--accent-color), #dd7230c9, var(--accent-color), #dd7230c9); 
+    border: 1px solid var(--secondary-color);
     display: block;
-} */
+    animation: bannerBG 5s ease infinite;
+}
 
-/* News */
-/* .content-blocks{
-    display:flex;
-    flex-wrap: wrap;
-} */
+@keyframes bannerBG{
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
-/* .news-card{
-    margin-bottom: 10px;
-} */
+
+/* Main Content index.html */
+
+.size-div{
+    width : auto;
+    height: auto;
+
+}
+
+.hero-img{
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+}
+
+.hero-img img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.spot div{
+    margin: 5px;
+
+}
+
+.spot img{
+    width:75%;
+    height: auto;
+}
+
+main a{
+    color:#DD7230;
+}
+
+main h3{
+    text-shadow: 0px 0px 5px var(--accent-color);
+}
 
 /* Grid layout */
 .spot{
