@@ -12,10 +12,7 @@
         min-width: 16vw;
         max-width: 18vw;
     }
-
-
-
-    .content{
-        height: 100vh;
-    }
+    /* footer{
+        margin-top:50px;
+    } */
 }
