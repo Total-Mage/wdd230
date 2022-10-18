@@ -31,7 +31,7 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 function checkMeetReminder(day){
   const banner = document.querySelector(".notification-banner");
   
-  if(day == 2 || day == 3){
+  if(day == 1 || day == 2){
     banner.setAttribute('id','reminder');
   }
 }
