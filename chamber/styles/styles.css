@@ -186,6 +186,38 @@ nav a:hover{
     align-items: center;
     overflow: hidden;
     display: flex;
+    position:relative;
+}
+
+.hero-img h2, .hero-img button{
+    position: absolute;
+    z-index: 3;
+}
+
+.hero-img h2{
+    color: white;
+    top: 10px;
+    left: 10px;
+}
+
+.hero-img button{
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    border: solid 0.5px white;
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    color: white;
+    font-family: var(--header-font);
+    box-shadow: 0px 0px 3px 3px white;
+}
+
+.hero-img button:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 8px 1px white;
+    font-size: medium;
+    cursor: pointer;
+    padding:9px;
 }
 
 .hero-img img{
@@ -202,6 +234,23 @@ nav a:hover{
 .spot img{
     max-width:100%;
     height: auto;
+}
+
+.weather p{
+    text-align: left;
+}
+
+#top-weather{
+    display: inline;
+}
+
+#temp{
+    font-size: 3em;
+    float:right;
+}
+
+.weather img{
+    float: lef;
 }
 
 main a{

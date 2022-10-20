@@ -59,7 +59,7 @@
             <section class="content">
                 <div class="hero-img size-div">
                     <h2>Welcome to Phandalin</h2>
-                    <img src="./images/phan-hero.webp" alt="low view of Phandailin's downtown">
+                    <img src="./images/wdd230-org.jpg" alt="low view of Phandailin's downtown">
                     <button>Join the Chamber</button>
                 </div>
                 <div class="news colored-box">
@@ -71,7 +71,18 @@
                     <p>After the help of some kind adventurers, the Redbrands have been ran out of town and the economy restored to it's former glory. <a href='#'>More info...</a></p>
                 </div>
                 <div class="weather colored-box">
-                    <p>Weather info here</p>
+                    <div id="top-weather">
+                        <h3>Weather</h3>
+                        <img src="./images/p-cloudy.webp" alt="partly cloudy">     
+                    </div>
+                    <span id="temp"></span>
+                    <p>Partly Cloudy</p>
+                    <hr>
+                    <p>
+                        Wind Speed: <span id="wspeed"></span> 
+                        <br> 
+                        Wind Chill: <span id="chill"></span>  
+                    </p>
                 </div>
                 <div class="join colored-box">
                     <p>Join</p>
@@ -114,5 +125,6 @@
             </div>
         </footer>
         <script src="./scripts/index.js" async defer></script>
+        <script src="./scripts/windchill.js" async defer></script>
     </body>
 </html>
