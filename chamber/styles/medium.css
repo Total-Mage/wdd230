@@ -22,14 +22,6 @@
         display:none;
     }
 
-    .content div, .content aside{
-        height: 15vh;
-    }
-
-    .spot div{
-        height:10vh;
-    }
-
     .social-head img{
         margin: 20px auto;
     }

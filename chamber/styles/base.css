@@ -11,17 +11,8 @@
         gap: 1em;
     }
 
-    .content div, .content aside{
-        height: 15vh;
-    }
-
     .spot{
-        height:30vh !important;
         gap: 0 !important;
-    }
-
-    .spot div{
-        height:10vh;
     }
 
     .spot3, .join{
