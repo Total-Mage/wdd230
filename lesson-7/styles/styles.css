@@ -8,3 +8,23 @@ body{
 picture{
     padding-bottom: 10px;
 }
+
+.loaded {
+animation: fade-in 0.7s;
+}
+
+@keyframes fade-in {
+    from {
+        transform: scale(0.9);
+        filter: blur(4px);
+        transform: rotate(360deg);
+        border-radius: 100%;
+    }
+    to {
+        transform: scale(1);
+        filter: blur(4px);
+        transform: rotate(0deg);
+        border-radius: none;
+
+    }
+}
