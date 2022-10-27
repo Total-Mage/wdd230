@@ -12,7 +12,22 @@ p{
 
 }
 
-/*  */
+.visits{
+    background-color: #854D27;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.5);
+    padding: 8px;
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.visits p{
+    margin: 10px;
+}
+
+
 .cap-div{
     top: 80%;
     width: 100%;
