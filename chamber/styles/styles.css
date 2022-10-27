@@ -290,6 +290,11 @@ main h3{
     grid-area:ham;
 }
 
+footer a, footer a:link, footer a:visited, footer a:active{
+    text-decoration: none;
+    color: #fffb00;    
+}
+
 .footer-top{
     display: grid;
     grid-template-areas: 
