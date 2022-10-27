@@ -9,6 +9,7 @@ p{
 
 .disc-img{
     transition: 0.3s ease-in-out;
+    margin: 10px;
 
 }
 
@@ -62,8 +63,17 @@ p{
     
         }
     }
+
+.disc-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 1em 10vw;
+
+}
 /* Grid assigments */
-#townhall{
+/* #townhall{
     grid-area: img1;
 }
 #mine{
@@ -77,4 +87,4 @@ p{
 }
 #mansion{
     grid-area: img5;
-}
+} */

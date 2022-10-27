@@ -40,7 +40,7 @@ main{
     margin: 0 auto;
 }
 
-.content, .disc-content{
+.content{
     padding: 1em 10vw;
     display: grid;
     gap: 1em;
