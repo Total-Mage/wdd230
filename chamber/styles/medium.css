@@ -7,8 +7,17 @@
         "spot spot spot"
         "join join join"
         "event event weather";
-        gap: 1em;
     }
+
+    .disc-content{
+        display:grid;
+        grid-template-areas:
+        "img1 img1" 
+        "img2 img2"
+        "img3 img4"
+        "img5 img5";
+    }
+
     .head-logo{
         width:70px;
     }
@@ -97,5 +106,11 @@
         grid-template-areas: 
         "img name name social ham";
         height:10vh;
+    }
+
+    /* Discover Page */
+    .cap-div{
+        top:60%;
+        height: 40%;
     }
 }

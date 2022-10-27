@@ -1,0 +1,60 @@
+p{
+    font-size: larger;
+}
+
+
+.disc-img img{
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.5);
+}
+
+/*  */
+.cap-div{
+    top: 80%;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(#854D2795 10%, #854D2775);
+    text-align: center;
+    z-index: 3;
+
+    /* place everything in the middle */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.cap-div p{
+    margin: 0 15px;
+}
+
+.loaded {
+    animation: fade-in 0.7s;
+    }
+    
+    @keyframes fade-in {
+        from {
+            transform: scale(0.9);
+            border-radius: 100%;
+        }
+        to {
+            transform: scale(1);
+            border-radius: none;
+    
+        }
+    }
+/* Grid assigments */
+#townhall{
+    grid-area: img1;
+}
+#mine{
+    grid-area: img2;
+}
+#knight{
+    grid-area: img3;
+}
+#town{
+    grid-area: img4;
+}
+#mansion{
+    grid-area: img5;
+}

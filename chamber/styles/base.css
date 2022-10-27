@@ -8,7 +8,16 @@
         "news"
         "spot"
         "spot";
-        gap: 1em;
+    }
+
+    .disc-content{
+        display:grid;
+        grid-template-areas:
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5";
     }
 
     .spot{
@@ -110,5 +119,10 @@
         "contact-foot";
         text-align: center;
     }
-    
+
+    /* Discover Page */
+    .cap-div{
+        top:60%;
+        height: 40%;
+    }
 }

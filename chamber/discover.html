@@ -10,8 +10,8 @@
         prosperity hoping to be shared with all. Check our Chamber of Commerce page for more.">
         <meta name="author" content="Easterling Carpenter">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- General Stylesheet -->
-        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="stylesheet" href="./styles/discover.css">
         <!-- Viewport CSS -->
         <link rel="stylesheet" href="styles/large.css">
         <link rel="stylesheet" href="styles/medium.css">
@@ -31,7 +31,7 @@
                 <nav>
                     <ul class="navigation">
                         <li><a class="ham" href="#"></a></li>
-                        <li><a href="./discover.html">Discover</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="#">Directory</a></li>
                         <li><a href="#">Join</a></li>
                         <li><a href="#">Contact</a></li>
@@ -49,61 +49,45 @@
         <!-- Haburger menu popout -->
         <nav class="hammy">
             <ul>
-                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <main>
-            <section class="content">
-                <div class="hero-img">
-                    <h2>Welcome to Phandalin</h2>
-                        <img src="./images/phan-hero.webp" alt="low view of Phandailin's downtown">
-                    <button>Join the Chamber</button>
+        <main class="disc-content">
+            <div class="disc-img" id="townhall">
+                <img src="./images/place600.webp" data-src="./images/townhall.jpg" alt="low view of Phandailin's downtown">
+                <div class="cap-div">
+                    <p>The towns current population totals 178.</p>
                 </div>
-                <div class="news colored-box">
-                    <h3>News Release</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget pulvinar tortor. Donec condimentum, nulla tempor rutrum molestie, ligula nibh molestie dolor, et semper nisi metus eu enim. Nullam vehicula efficitur pulvinar. Donec aliquet ut felis a sodales. Aliquam blandit odio magna, sit amet iaculis nisi sollicitudin ut. Cras metus.</p>            
-                </div>
-                <div class="event colored-box">
-                    <h3>💎 Mine of Phandelver: Open 💎</h3>
-                    <p>After the help of some kind adventurers, the Redbrands have been ran out of town and the economy restored to it's former glory. <a href='#'>More info...</a></p>
-                </div>
-                <div class="weather colored-box">
-                    <div id="top-weather">
-                        <h3>Weather</h3>
-                        <img src="./images/p-cloudy.webp" alt="partly cloudy">     
-                    </div>
-                    <span id="temp"></span>
-                    <p>Partly Cloudy</p>
-                    <hr>
-                    <p>
-                        Wind Speed: <span id="wspeed"></span> 
-                        <br> 
-                        Wind Chill: <span id="chill"></span>  
-                    </p>
-                </div>
-                <div class="join colored-box">
-                    <p>Join</p>
-                </div>
-                <aside class="aligned colored-box spot">
-                    <div class="spot-box colored-box spot1">
-                        <h3>Lord's Alliance</h3>
-                        <img src="./images/la-logo.webp" alt="the symbol of the Lord's alliance">
-                        <p><em>"To protect the world from devastation!"</em></p>
-                        <p>The Lord's alliance is soliciting new partners</p>
-                    </div>
-                    <div class="spot-box colored-box spot2">
-                        <h3>Barthen's Provisions</h3>
-                        <img src="./images/crate.webp" alt="the symbol of the Barthen's Provisions">
-                        <p>Barthen's Provisions has everything to meet your general needs.</p>
-                    </div>
-                    <div class="spot-box colored-box spot3">
-                        <p>Spotlight</p>
-                    </div>
-                </aside>
-            </section>
+            </div>
+            <div class="disc-img" id="mine">
+                <img src="./images/place600.webp" data-src="./images/mine.jpg" alt="low view of Phandailin's downtown">
+                <div class="cap-div">
+                    <p>The average day-long mining trip to Phandelver mines yields 80 gold pieces.</p>
+                </div> 
+            </div>
+            <div class="disc-img" id="knight">
+                <img src="./images/place600.webp" data-src="./images/knight.jpg" alt="low view of Phandailin's downtown">
+                <div class="cap-div">
+                    <p>We have the pleasure of housing a branch of the Lord's Alliance. Talk to Sildar Hallwinter in the town hall if interested.</p>
+                </div>  
+            </div>
+            <div class="disc-img" id="town">
+                <img src="./images/place600.webp" data-src="./images/town.jpg" alt="low view of Phandailin's downtown">
+                <div class="cap-div">
+                    <p>The town's residential district is expanding. Contact us to know if Phandailin is a good fit for your family.</p>
+                </div>  
+            </div>
+                  
+            <div class="disc-img" id="mansion">
+                <img src="./images/place600.webp" data-src="./images/mansion.jpg" alt="low view of Phandailin's downtown">
+                <div class="cap-div">
+                    <p>The previous home of Iarno "Glasstaff" Albrek has become museum to help relive the story of the Black Spider's downfall.</p>
+                </div>     
+            </div>
+                   
         </main>
         <footer>
             <div class="footer-top">
@@ -124,7 +108,7 @@
                 <p>&copy; <span class="copy-year"></span> Phandalin Chamber | <strong>Easterling Carpenter</strong> | WDD 230 Project | Last Modification: <span class="last-modified"></span></p>
             </div>
         </footer>
+        <script src="./scripts/discover.js" async defer></script>
         <script src="./scripts/index.js" async defer></script>
-        <script src="./scripts/windchill.js" async defer></script>
     </body>
 </html>

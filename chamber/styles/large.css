@@ -5,14 +5,21 @@
         "event hero hero spot"
         "weather hero hero spot"
         "join news news spot";
-        gap: 1em;
+    }
+    
+    .disc-content{
+        grid-template-areas:
+        "img1 img2"
+        "img3 img4"
+        "img5 img5";
     }
 
     .event, .spot{
         min-width: 16vw;
         max-width: 18vw;
     }
-    /* footer{
-        margin-top:50px;
-    } */
+
+    .spot img{
+        width:80px;
+    }
 }
