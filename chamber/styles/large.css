@@ -18,6 +18,12 @@
         min-width: 16vw;
         max-width: 18vw;
     }
+    .disc-img:hover{
+        transform: scale(1.05);
+        border-radius: 18px;
+        z-index: 5;
+        box-shadow: 0 0 20px 4px black;
+    }
 
     .spot img{
         width:80px;
