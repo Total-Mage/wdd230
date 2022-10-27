@@ -53,19 +53,21 @@ const difHours = Math.round(dif/hour);
 const difDays = Math.round(dif/day);
 let timeText;
 
-if(difSeconds <= 120){
-	timeText = difSeconds +" seconds ";
-}
-else if(difMinutes <= 120){
-	timeText = difMinutes +" minutes ";
-}
-else if(difHours <= 48){
-	timeText = difHours +" hours ";
-}
-else{
-	timeText = difDays +" days ";
-}
-  
+// Saved for later...
+// if(difSeconds <= 120){
+// 	timeText = difSeconds +" seconds ";
+// }
+// else if(difMinutes <= 120){
+// 	timeText = difMinutes +" minutes ";
+// }
+// else if(difHours <= 48){
+// 	timeText = difHours +" hours ";
+// }
+// else{
+// 	timeText = difDays +" days ";
+// }
+
+timeText = difDays +" days ";  
 difVisit.textContent = timeText;
 
 
