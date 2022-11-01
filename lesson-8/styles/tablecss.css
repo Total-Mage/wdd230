@@ -1,0 +1,78 @@
+:root{
+    --main-color : #212529;
+    --border-color: #2a3035;
+    --head-color: #417B5A;
+    --small-head: #417B5A50;
+    --body-color: #D0CEBA;
+    --alt-body: #98978b;
+    --highlight-row: rgb(0, 179, 255);
+    --highlight-cell: rgb(0, 51, 255);
+}
+
+body{
+    background-color: var(--main-color);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    margin: 0 auto;
+    text-align: center;
+}
+
+table{
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    width:50%;
+    border-collapse: collapse; 
+    box-shadow: 0 5px 20px 3px #FFFFFF20;
+}
+
+thead{
+    background-color: var(--small-head);
+}
+
+#heady{
+    background-color: pink;
+    color: var(--main-color);
+}
+
+tbody{
+    background-color: var(--body-color);
+    color: var(--main-color);
+}
+
+tbody tr:nth-child(even){
+    background-color: var(--alt-body);
+}
+
+thead:first-child{
+    background-color: var(--head-color);
+}
+
+table, tr, th, td{
+    border: solid var(--border-color);
+
+}
+
+.high-cell{
+    background-color: var(--highlight-cell);
+    color: white;
+}
+
+tbody tr:hover{
+    background-color: var(--highlight-row);
+}
+
+tr, th, td{
+    margin: 0;
+    padding: 10px 0;
+}
+
+th{
+    padding:10px auto;
+    text-align: center;
+    width: 50%;
+}
