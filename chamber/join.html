@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Chamber of Commerce: Phandalin - Lost Jewel of the Forgotten Realms</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <meta name="description" content="Phandalin is a small mining town who recently rediscovered 
+        it's fortune having unearthed the Phandelver mine. With the resurgence of commerce, comes
+        prosperity hoping to be shared with all. Check our Chamber of Commerce page for more.">
+        <meta name="author" content="Easterling Carpenter">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- General Stylesheet -->
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/join.css">
+        <!-- Viewport CSS -->
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/base.css">
+    </head>
+    <body>
+        <div class="notification-banner"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+        <header>
+            <div class="top-head">
+                <div class="logo-box">
+                    <img src="./images/phandalinlogo.webp" alt="pickaxe and arrow logo for the phandalin chamber of commerce" class ="head-logo">
+                </div>
+                <div class="head-top-text">
+                    <h1>Phandalin</h1>
+                    <p>Chamber of Commerce</p>
+                </div>
+                <nav>
+                    <ul class="navigation">
+                        <li><a class="ham" href="#"></a></li>
+                        <li><a href="./discover.html">Discover</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="social-head">
+                    <img src="./images/fb_icon.webp" alt="link to facebook page">
+                    <img src="./images/li_icon.webp" alt="link to linkedin page">
+                </div>
+            </div>
+            <div class="time aligned block">
+                <span class="date-time"></span>
+            </div>
+        </header>
+        <!-- Hamburger menu popout -->
+        <nav class="hammy">
+            <ul>
+                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Join us today!</h2>
+
+            <!-- FORM -->
+            <section class="loaded">
+
+                <form method="get" action="thankyou.html" class="loaded">
+                    <fieldset>
+                        <legend>Contact Info</legend>
+                        <label>First Name <br><input type="text" name="fname" required autofocus class="input-box"></label>
+                        <label>Last Name <br><input type="text" name="lname" required class="input-box"></label>
+                        <label>Email <br><input type="email" name="email" placeholder="john.doe@gmail.com" class="input-box" required></label>
+                        <label>Cell Phone <br><input type="tel" name="phone" class="input-box" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Business Info</legend>
+                        <label>Position <br><input type="text" name="position"class="input-box"></label>
+                        <label>Business Name <br><input type="text" name="business" class="input-box" required></label>
+                        <label>Business Description <br><input type="textarea" name="businessDesc" class="input-box" placeholder="Briefly describe your business here." required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Membership Levels</legend>
+                        <label> <input type="radio" name="member" value="np" >
+                            <div class="card">
+                              <div class="card-header">
+                                <p>NP Membership</p>
+                              </div>
+                              <div class="card-body">
+                                <p>Free</p>
+                                <ul>
+                                    <li>No cost to you so you can do what you do</li>
+                                    <li>Join Sister Garaele who heads up our non-profit committee</li>
+                                    <li>Reach those that need your help</li>
+                                </ul>
+                              </div>
+                           </div></label>
+                           <label> <input type="radio" name="member" value="bronze">
+                            <div class="card">
+                              <div class="card-header">
+                                <p>Bronze Membership</p>
+                              </div>
+                              <div class="card-body">
+                                <p>5 gp per month</p>
+                                <ul>
+                                    <li>Receive Bronze Tier advertisements in events</li>
+                                    <li>Committee hearing seat</li>
+                                </ul>
+                              </div>
+                            </div>
+                           </label>
+                           <label> <input type="radio" name="member" value="silver">
+                            <div class="card">
+                              <div class="card-header">
+                                <p>Silver Membership</p>
+                              </div>
+                              <div class="card-body">
+                                <p>15 gp per month</p>
+                                <ul>
+                                    <li>Receive Silver Tier advertisements in events <i>and</i> public spaces</li>
+                                    <li>Committee Voting seat</li>
+                                    <li>Business Management Trainings</li>
+                                </ul>
+                              </div>
+                            </div>
+                           </label>
+                           <label> <input type="radio" name="member" value="gold">
+                            <div class="card">
+                              <div class="card-header">
+                                <p>Gold Membership</p>
+                              </div>
+                              <div class="card-body">
+                                <p>30 gp per month</p>
+                                <ul>
+                                    <li>Receive Silver Tier advertisements in events <i>and</i> public spaces</li>
+                                    <li>Committee Chair seat</li>
+                                    <li>Eligibility for Chamber Presidency</li>
+                                    <li>Business Management Trainings</li>
+                                    <li>Market Study</li>
+                                </ul>
+                              </div>
+                            </div>
+                           </label>
+                    </fieldset>
+                    <input type="date" name="date" hidden id="date">
+                    <input type="submit" name="submitBtn" value="Request Membership">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-top">
+                <div class="foot-logo"><img src="./images/phandalinlogo.webp" alt="logo of phandalin including pickaxe and arrow"></div>
+                <div class="add-foot">
+                    <p><strong>Phandalin - Chamber of Commerce</strong>
+                    <br>Town Hall, Phandalin
+                    <br>3 days trip from Neverwinter
+                    <br>East of the Triboar Trail, Faerûn</p>
+                </div>
+                <div class="contact-foot centered">
+                    <p>sildarhallwinter@phancoc.com</p>
+                    <p>Yell really loud... or use a message spell</p>
+                    <p><a href="https://cdnb.artstation.com/p/assets/images/images/039/602/301/large/maps-on-fire-phandalin-player-map.jpg?1626369987">📍 Location Map</a></p>
+                </div> 
+            </div>            
+            <div class="time">
+                <p>&copy; <span class="copy-year"></span> Phandalin Chamber | <strong>Easterling Carpenter</strong> | WDD 230 Project | Last Modification: <span class="last-modified"></span></p>
+            </div>
+        </footer>
+        <script src="./scripts/join.js" async defer></script>
+    </body>
+</html>
