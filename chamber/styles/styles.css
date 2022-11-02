@@ -22,7 +22,7 @@
     height: 144px;
 }
 
-p, .date-time{
+body, .date-time{
     font-family: var(--p-font);
 }
 

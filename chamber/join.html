@@ -57,11 +57,13 @@
             </ul>
         </nav>
         <main>
-            <h2>Join us today!</h2>
+            <div id="join-hero">
+                <h2>Join us today!</h2>                
+            </div>
 
             <!-- FORM -->
             <section class="loaded">
-
+                <h3>Chamber Membership Application</h3>
                 <form method="get" action="thankyou.html" class="loaded">
                     <fieldset>
                         <legend>Contact Info</legend>
@@ -74,9 +76,9 @@
                         <legend>Business Info</legend>
                         <label>Position <br><input type="text" name="position"class="input-box"></label>
                         <label>Business Name <br><input type="text" name="business" class="input-box" required></label>
-                        <label>Business Description <br><input type="textarea" name="businessDesc" class="input-box" placeholder="Briefly describe your business here." required></label>
+                        <label>Business Description <br><textarea type="textarea" name="businessDesc" class="input-box" placeholder="Briefly describe your business here." required></textarea></label>
                     </fieldset>
-                    <fieldset>
+                    <fieldset id="membership">
                         <legend>Membership Levels</legend>
                         <label> <input type="radio" name="member" value="np" >
                             <div class="card">
@@ -140,7 +142,7 @@
                            </label>
                     </fieldset>
                     <input type="date" name="date" hidden id="date">
-                    <input type="submit" name="submitBtn" value="Request Membership">
+                    <input type="submit" class="submitBtn" name="submitBtn" value="Request Membership">
                 </form>
             </section>
         </main>
