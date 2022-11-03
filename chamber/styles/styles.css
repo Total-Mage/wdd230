@@ -181,7 +181,7 @@ nav a:hover{
     position:relative;
 }
 
-.hero-img h2, .hero-img button, .cap-div{
+.hero-img h2, .hero-img input, .cap-div{
     position: absolute;
     z-index: 3;
 }
@@ -192,7 +192,7 @@ nav a:hover{
     left: 10px;
 }
 
-.hero-img button{
+.hero-img input{
     bottom: 10px;
     right: 10px;
     padding: 10px;
@@ -204,7 +204,7 @@ nav a:hover{
     box-shadow: 0px 0px 3px 3px white;
 }
 
-.hero-img button:hover{
+.hero-img input:hover{
     transition: 0.5s;
     box-shadow: 0px 0px 8px 1px white;
     font-size: medium;
