@@ -315,3 +315,6 @@ footer a, footer a:link, footer a:visited, footer a:active{
     text-align: center;
 }
 
+.ty{
+    height: 40vh;
+}
