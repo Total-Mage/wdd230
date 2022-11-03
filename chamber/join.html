@@ -76,8 +76,8 @@
                     </fieldset>
                     <fieldset>
                         <legend>Business Info</legend>
-                        <label>Position <br><input type="text" name="position"class="input-box"></label>
-                        <label>Business Name<span class="required">*</span> <br><input type="text" name="business" class="input-box" required></label>
+                        <label>Position <br><input type="text" name="position"class="input-box" pattern="[a-zA-z \-]{7,}" title="must include at least 7 characters; only letters, spaces and hyphens"></label>
+                        <label>Business Name<span class="required">*</span> <br><input type="text" name="business" title="Please include the name of your business here" class="input-box" required></label>
                         <label>Business Description<span class="required">*</span> <br><textarea type="textarea" name="businessDesc" class="input-box" placeholder="Briefly describe your business here." required></textarea></label>
                     </fieldset>
                     <fieldset id="membership">
