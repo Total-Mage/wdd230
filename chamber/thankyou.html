@@ -12,6 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- General Stylesheet -->
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/join.css">
         <!-- Viewport CSS -->
         <link rel="stylesheet" href="styles/large.css">
         <link rel="stylesheet" href="styles/medium.css">
@@ -57,54 +58,8 @@
         </nav>
         <main>
             <section class="content">
-                <div class="hero-img">
-                    <h2>Welcome to Phandalin</h2>
-                        <img src="./images/phan-hero.webp" alt="low view of Phandailin's downtown">
-                    <form action="./join.html">
-                        <input id="cta-btn" type="submit" value="Join the Chamber">
-                    </form>
-                </div>
-                <div class="news colored-box">
-                    <h3>News Release</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget pulvinar tortor. Donec condimentum, nulla tempor rutrum molestie, ligula nibh molestie dolor, et semper nisi metus eu enim. Nullam vehicula efficitur pulvinar. Donec aliquet ut felis a sodales. Aliquam blandit odio magna, sit amet iaculis nisi sollicitudin ut. Cras metus.</p>            
-                </div>
-                <div class="event colored-box">
-                    <h3>💎 Mine of Phandelver: Open 💎</h3>
-                    <p>After the help of some kind adventurers, the Redbrands have been ran out of town and the economy restored to it's former glory. <a href='#'>More info...</a></p>
-                </div>
-                <div class="weather colored-box">
-                    <div id="top-weather">
-                        <h3>Weather</h3>
-                        <img src="./images/p-cloudy.webp" alt="partly cloudy">     
-                    </div>
-                    <span id="temp"></span>
-                    <p>Partly Cloudy</p>
-                    <hr>
-                    <p>
-                        Wind Speed: <span id="wspeed"></span> 
-                        <br> 
-                        Wind Chill: <span id="chill"></span>  
-                    </p>
-                </div>
-                <div class="join colored-box">
-                    <p>Join</p>
-                </div>
-                <aside class="aligned colored-box spot">
-                    <div class="spot-box colored-box spot1">
-                        <h3>Lord's Alliance</h3>
-                        <img src="./images/la-logo.webp" alt="the symbol of the Lord's alliance">
-                        <p><em>"To protect the world from devastation!"</em></p>
-                        <p>The Lord's alliance is soliciting new partners</p>
-                    </div>
-                    <div class="spot-box colored-box spot2">
-                        <h3>Barthen's Provisions</h3>
-                        <img src="./images/crate.webp" alt="the symbol of the Barthen's Provisions">
-                        <p>Barthen's Provisions has everything to meet your general needs.</p>
-                    </div>
-                    <div class="spot-box colored-box spot3">
-                        <p>Spotlight</p>
-                    </div>
-                </aside>
+                <h2>Thank you, <span id="submitee-name"></span>!</h2>
+                <p>Your request to join Phandalin's Chamber of Commerce has been submitted successfully.</p>
             </section>
         </main>
         <footer>
@@ -127,6 +82,6 @@
             </div>
         </footer>
         <script src="./scripts/index.js" async defer></script>
-        <script src="./scripts/windchill.js" async defer></script>
+        <script src="./scripts/join.js"></script>
     </body>
 </html>
