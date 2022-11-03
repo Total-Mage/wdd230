@@ -65,19 +65,20 @@
             <!-- FORM -->
             <section class="loaded">
                 <h3>Chamber Membership Application</h3>
+                <p class="required">* = required</p>
                 <form method="get" action="thankyou.html" class="loaded">
                     <fieldset>
                         <legend>Contact Info</legend>
-                        <label>First Name <br><input type="text" name="fname" required autofocus class="input-box"></label>
-                        <label>Last Name <br><input type="text" name="lname" required class="input-box"></label>
-                        <label>Email <br><input type="email" name="email" placeholder="john.doe@gmail.com" class="input-box" required></label>
-                        <label>Cell Phone <br><input type="tel" name="phone" class="input-box" required></label>
+                        <label>First Name<span class="required">*</span> <br><input type="text" name="fname" required autofocus class="input-box"></label>
+                        <label>Last Name<span class="required">*</span> <br><input type="text" name="lname" required class="input-box"></label>
+                        <label>Email<span class="required">*</span> <br><input type="email" name="email" placeholder="john.doe@gmail.com" class="input-box" required></label>
+                        <label>Cell Phone<span class="required">*</span> <br><input type="tel" name="phone" class="input-box" required></label>
                     </fieldset>
                     <fieldset>
                         <legend>Business Info</legend>
                         <label>Position <br><input type="text" name="position"class="input-box"></label>
-                        <label>Business Name <br><input type="text" name="business" class="input-box" required></label>
-                        <label>Business Description <br><textarea type="textarea" name="businessDesc" class="input-box" placeholder="Briefly describe your business here." required></textarea></label>
+                        <label>Business Name<span class="required">*</span> <br><input type="text" name="business" class="input-box" required></label>
+                        <label>Business Description<span class="required">*</span> <br><textarea type="textarea" name="businessDesc" class="input-box" placeholder="Briefly describe your business here." required></textarea></label>
                     </fieldset>
                     <fieldset id="membership">
                         <legend>Membership Levels</legend>
