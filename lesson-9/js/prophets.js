@@ -41,10 +41,10 @@ fetch(requestURL)
 
     // Add two other components for the birth date and birth place
     let bdate = document.createElement('p');
-    bdate.textContent = prophet.birthdate;
+    bdate.textContent = "Date of birth: " +prophet.birthdate;
 
     let bplace = document.createElement('p');
-    bplace.textContent = prophet.birthplace;
+    bplace.textContent = "Place of birth: " +prophet.birthplace;
   
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
