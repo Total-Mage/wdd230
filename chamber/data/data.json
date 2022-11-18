@@ -1,0 +1,77 @@
+{
+    "businesses" : [
+        {
+            "name": "BWS Technologies",
+            "number": "(334) 358-6305",
+            "address": "1836 Glynwood Drive Prattville AL 36066",
+            "website": "http://www.bwsit.com/",
+            "image": "https://bwsit.com/wp-content/uploads/2020/03/bwslogo-white-200x97.png",
+            "membership": "Silver"
+        },        
+        {
+            "name": "Adoration Hospice",
+            "number": "(334) 746-5630",
+            "address": "1331 South Memorial Drive Prattville AL 36067",
+            "website": "https://adorationhealth.com/locations/",
+            "image": "https://adorationhealth.com/wp-content/uploads/2019/09/logo.svg",
+            "membership": "Gold"
+        },        
+        {
+            "name": "Arrow Pest Control",
+            "number": "(334) 365-4610",
+            "address": "740 S Memorial Dr, Prattville, AL 36067, United States",
+            "website": "https://arrowpestcontrol.net/wordpress/",
+            "image": "https://arrowpestcontrol.net/wordpress/wp-content/uploads/2020/06/cropped-ArrowPestControl_LOGO-10.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Bo Evan's Realty",
+            "number": "(334) 361-4661",
+            "address": "1137 East Main Street Prattville, AL 36066",
+            "website": "https://boevansrealty.com/",
+            "image": "https://boevansrealty.com/wp-content/uploads/2022/03/Bo-Evans-Realty-Logo-1-transparent-background.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "YMCA",
+            "number": "(334) 365-8852",
+            "address": "600 E Main St, Prattville, AL 36067, United States",
+            "website": "https://www.prattvilleymca.org/",
+            "image": "https://www.prattvilleymca.org/graphics/images/blue_purple/y_only_logo.png",
+            "membership": "Non-Profit"
+        },
+        {
+            "name": "First Community Bank of Central Alabama",
+            "number": "(334) 358-1663",
+            "address": "1761 E. Main Street, Prattville, AL 36066",
+            "website": "https://www.fcbca.com/index.php",
+            "image": "https://www.freeandclear.com/css/images/lender_logos/FIRST%20COMMUNITY%20BANK%20OF%20CENTRAL%20ALABAMA.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Durbin Auto Parts",
+            "number": "(334) 365-5210",
+            "address": "948 South Memorial Drive Prattville AL 36067",
+            "website": "https://www.carquest.com/stores/al/prattville/5712?utm_medium=local&utm_source=yext-gmb&utm_content=gmb-2016-12-29&utm_campaign=cq-ind",
+            "image": "https://www.carquest.com/stores/permanent-b0b701/assets/images/logo-cq.b6c7c3cc.jpg",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Robert Trent Jones Golf Trail",
+            "number": "(334) 285-1114",
+            "address": "2600 Constitution Avenue, Prattville, AL 36066",
+            "website": "https://www.rtjgolf.com/capitolhill/",
+            "image": "https://lirp.cdn-website.com/d944ebea/dms3rep/multi/opt/Robert+Trent+Jones+Golf+Trail-1920w.jpg",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Adams Drugs",
+            "number": "(334) 399-9064",
+            "address": "103 South Memorial Drive Prattville AL 36067",
+            "website": "https://adamsdrugs.net/",
+            "image": "https://chambermaster.blob.core.windows.net/images/members/1954/1037/MemLogoSearch_Adams%20Drugs%20Logo.jpg",
+            "membership": "Bronze"
+        }
+
+    ]
+}

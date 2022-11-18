@@ -329,3 +329,24 @@ footer a, footer a:link, footer a:visited, footer a:active{
 .required{
     color: yellow;
 }
+
+
+/* ---- Directory ---- */
+.view-btn{
+    border: 1px solid #2E1F27;
+    border-radius: 5px;
+    background-color: #DD7230;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.view-btn:hover{
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    color: black;
+    background-color: #fffb00;
+}
