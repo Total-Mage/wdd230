@@ -10,8 +10,6 @@
         prosperity hoping to be shared with all. Check our Chamber of Commerce page for more.">
         <meta name="author" content="Easterling Carpenter">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- General Stylesheet -->
-        <link rel="stylesheet" href="styles/styles.css">
         <!-- Viewport CSS -->
         <link rel="stylesheet" href="styles/large.css">
         <link rel="stylesheet" href="styles/medium.css">
@@ -31,8 +29,8 @@
                 <nav>
                     <ul class="navigation">
                         <li><a class="ham" href="#"></a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="./discover.html">Discover</a></li>
-                        <li><a href="#">Directory</a></li>
                         <li><a href="./join.html">Join</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -49,18 +47,18 @@
         <!-- Haburger menu popout -->
         <nav class="hammy">
             <ul>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
                 <li><a href="./join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <main>
-            <section>
-                <div class="view-btn">᎒᎒᎒</div>
-                <div class="view-btn">☰</div>
+        <main class="content">
+            <section id="grid-list">
+                <div id="grid-btn">᎒᎒᎒</div>
+                <div id="list-btn">☰</div>
             </section>
-            <section id="directory-list">
+            <section id="directory-list" class="grid">
                 
             </section>
         </main>
@@ -84,6 +82,7 @@
             </div>
         </footer>
         <script src="./scripts/index.js" async defer></script>
+        <script src="./scripts/directory.js" async defer></script>
         <script src="https://use.fontawesome.com/b5ebfe0ca5.js"></script>
     </body>
 </html>
