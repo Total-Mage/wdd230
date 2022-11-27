@@ -24,7 +24,7 @@ listbutton.addEventListener("click", () => {
 });
 
 function getBusiness(){
-  fetch(requestURL = "../data/data.json")
+  fetch(requestURL = "./data/data.json")
   .then(function (response) {
     return response.json();
   })
