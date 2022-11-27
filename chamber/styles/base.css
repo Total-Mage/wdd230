@@ -435,6 +435,18 @@ footer a, footer a:link, footer a:visited, footer a:active{
     grid-column: 0 / 1;
 }
 
+/* Contact Page */
+#contact-form, #contact-info{
+    width:50%;
+    text-align:center;
+    margin:0;
+    padding: 50px;
+}
+
+#contact-content{
+    text-align: center;
+}
+
 /* Small viewport */
 
 @media (max-width: 768px){

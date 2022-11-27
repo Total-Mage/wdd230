@@ -10,9 +10,8 @@
         prosperity hoping to be shared with all. Check our Chamber of Commerce page for more.">
         <meta name="author" content="Easterling Carpenter">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- General Stylesheet -->
-        <link rel="stylesheet" href="styles/styles.css">
         <link rel="stylesheet" href="styles/join.css">
+
         <!-- Viewport CSS -->
         <link rel="stylesheet" href="styles/large.css">
         <link rel="stylesheet" href="styles/medium.css">
@@ -32,10 +31,10 @@
                 <nav>
                     <ul class="navigation">
                         <li><a class="ham" href="#"></a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="./discover.html">Discover</a></li>
                         <li><a href="./directory.html">Directory</a></li>
                         <li><a href="./join.html">Join</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="social-head">
@@ -50,16 +49,30 @@
         <!-- Haburger menu popout -->
         <nav class="hammy">
             <ul>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./discover.html">Discover</a></li>
                 <li><a href="./directory.html">Directory</a></li>
                 <li><a href="./join.html">Join</a></li>
-                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
         <main>
-            <section class="content ty">
-                <h2>Thank you, <span id="submitee-name"></span>!</h2>
-                <p>Your request to join Phandalin's Chamber of Commerce has been submitted successfully.</p>
+            <section class="content" id="contact-content">
+                <section id="contact-info">
+                    <h2>Our Contact Details are as found below:</h2>
+                    <p>Office Hours: 9-5 Monday-Friday</p>
+                    <p>345 Triboar Trail, Phandalin, 33018</p>
+                    <p>Phone Number: 338-112-3422</p>
+                </section>
+
+                <section id="contact-form">
+                    <form>
+                        <label>First Name<span class="required">*</span> <br><input type="text" name="fname" required autofocus class="input-box"></label>
+                        <label>Last Name<span class="required">*</span> <br><input type="text" name="lname" required class="input-box"></label>
+                        <label>Email<span class="required">*</span> <br><input type="email" name="email" placeholder="john.doe@gmail.com" class="input-box" required></label>
+                        <label>Inquiry Details<span class="required">*</span> <br><textarea type="textarea" name="businessDesc" class="input-box" placeholder="Briefly describe your inquiry here." required></textarea></label>
+                        <input type="submit" class="submitBtn" name="submitBtn" value="Send Inquiry">
+                    </form>
+                </section>
             </section>
         </main>
         <footer>
@@ -82,6 +95,6 @@
             </div>
         </footer>
         <script src="./scripts/index.js" async defer></script>
-        <script src="./scripts/thanks.js"></script>
+        <script src="./scripts/windchill.js" async defer></script>
     </body>
 </html>
